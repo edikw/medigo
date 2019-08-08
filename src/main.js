@@ -14,8 +14,12 @@ import { faUserSecret,
 	faMoneyCheck,
 	faUser,
 	faArrowLeft,
-	faSearch
-	 } from '@fortawesome/free-solid-svg-icons'
+	faSearch,
+	faClock,
+	faArrowDown,
+	faSlidersH,
+	faShareAlt,
+	faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 library.add(faUserSecret, 
@@ -28,7 +32,12 @@ library.add(faUserSecret,
 	faMoneyCheck,
 	faUser,
 	faArrowLeft,
-	faSearch)
+	faSearch,
+	faClock,
+	faArrowDown,
+	faSlidersH,
+	faShareAlt,
+	faMapMarkerAlt)
 
 Vue.config.productionTip = false
 Vue.component('font-awesome-icon', FontAwesomeIcon)

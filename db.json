@@ -1,42 +1,124 @@
 {
-  "employees": [
-    {
-      "id": 1,
-      "first_name": "Sebastian",
-      "last_name": "Eschweiler",
-      "email": "sebastian@codingthesmartway.com"
-    },
-    {
-      "id": 2,
-      "first_name": "Steve",
-      "last_name": "Palmer",
-      "email": "steve@codingthesmartway.com"
-    },
-    {
-      "id": 3,
-      "first_name": "Ann",
-      "last_name": "Smith",
-      "email": "ann@codingthesmartway.com"
-    }
-  ],
-  "dokter": [
-    {
-      "id": 1,
-      "first_name": "anisa",
-      "last_name": "Eschweiler",
-      "email": "sebastian@codingthesmartway.com"
-    },
-    {
-      "id": 2,
-      "first_name": "Steve",
-      "last_name": "Palmer",
-      "email": "steve@codingthesmartway.com"
-    },
-    {
-      "id": 3,
-      "first_name": "Ann",
-      "last_name": "Smith",
-      "email": "ann@codingthesmartway.com"
-    }
-  ]
+	"dokter": [
+		{
+			"id": 1,
+			"name": "dr.Agita Z, SpTHT-KL",
+			"gender": "Wanita",
+			"thumbnail":"https://s.kaskus.id/images/2018/07/08/9641104_20180708102041.jpg",
+			"jadwal": {
+				"rumah_sakit": "Rumah Sakit Pusat Pertamina",
+				"date": "Kamis, 10 Juni 2018",
+				"time": "hari ini (10.00 - 12.00)",
+				"clock": "10.00 - 12.00",
+				"status": true
+			},
+			"lokasi_praktik": [
+				{
+					"rumah_sakit": "Rumah Sakit Pusat Pertamina",
+					"alamat": "jl. Kyai Maja No.43, RT 4 RW 8, Gunung, Kebayoran Baru Jakarta Selatan "
+				},
+				{
+					"rumah_sakit": "Rumah Sakit pertamedika Sinabung",
+					"alamat": "jl. Sinabung II, No.32 AF, RT 5 RW 10, Gunung, Kebayoran Baru Jakarta Selatan "
+				}
+			],
+			"keahlian": [
+				{
+					"nama_keahlian": "Bedah Sinus Endoskopi dan Nasal"
+				},
+				{
+					"nama_keahlian": "Bedah Nasal Endoskopi"
+				},
+				{
+					"nama_keahlian": "Timpanoplasti"
+				}
+			],
+			"janji_online": true
+		},
+		{
+			"id": 2,
+			"name": "dr.Adisti M R, SpTHT-KL(K)",
+			"gender": "Laki-Laki",
+			"thumbnail": "https://pbs.twimg.com/profile_images/1099671926065098752/sNTZi6gw_400x400.jpg",
+			"jadwal": {
+				"rumah_sakit": "Rumah Sakit Nusantara",
+				"date": "Kamis, 13 Juni 2018",
+				"time": "hari kamis (09.00 - 12.00)",
+				"clock": "10.00 - 12.00",
+				"status": false
+			},
+			"lokasi_praktik": [
+				{
+					"rumah_sakit": "Rumah Sakit Pusat Pertamina",
+					"alamat": "jl. Kyai Maja No.43, RT 4 RW 8, Gunung, Kebayoran Baru Jakarta Selatan "
+				},
+				{
+					"rumah_sakit": "Rumah Sakit pertamedika Sinabung",
+					"alamat": "jl. Sinabung II, No.32 AF, RT 5 RW 10, Gunung, Kebayoran Baru Jakarta Selatan "
+				}
+			],
+			"keahlian": [
+				{
+					"nama_keahlian": "Bedah Sinus Endoskopi dan Nasal"
+				},
+				{
+					"nama_keahlian": "Bedah Nasal Endoskopi"
+				},
+				{
+					"nama_keahlian": "Timpanoplasti"
+				}
+			],
+			"janji_online": false
+		},
+		{
+			"id": 3,
+			"name": "Dr.dr. Mirta H, SpTHT-KL(K)",
+			"gender": "Wanita",
+			"thumbnail":"https://s.kaskus.id/images/2018/07/08/9641104_20180708102041.jpg",
+			"jadwal": {
+				"rumah_sakit": "Rumah Sakit Nusantara",
+				"date": "Jumat, 18 Juni 2018",
+				"time": "hari jumat (09.00 - 12.00)",
+				"clock": "09.00 - 12.00",
+				"status": false
+			},
+			"lokasi_praktik": [
+				{
+					"rumah_sakit": "Rumah Sakit Pusat Pertamina",
+					"alamat": "jl. Kyai Maja No.43, RT 4 RW 8, Gunung, Kebayoran Baru Jakarta Selatan "
+				},
+				{
+					"rumah_sakit": "Rumah Sakit pertamedika Sinabung",
+					"alamat": "jl. Sinabung II, No.32 AF, RT 5 RW 10, Gunung, Kebayoran Baru Jakarta Selatan "
+				}
+			],
+			"keahlian": [
+				{
+					"nama_keahlian": "Bedah Sinus Endoskopi dan Nasal"
+				},
+				{
+					"nama_keahlian": "Bedah Nasal Endoskopi"
+				},
+				{
+					"nama_keahlian": "Timpanoplasti"
+				}
+			],
+			"janji_online": true
+		}
+	],
+	"penyakit" :[
+		{
+			"nama_penyakit" : "Batuk kronis"
+		},
+		{
+			"nama_penyakit" : "Sinusitis Kronis"
+		},
+		{
+			"nama_penyakit" : "Kesulitan Menelan"
+		},
+		{
+			"nama_penyakit" : "Sembelit"
+		}
+
+	]
 }
